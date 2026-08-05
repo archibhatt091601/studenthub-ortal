@@ -1,0 +1,55 @@
+StudentHub Portal
+│
+├── Home
+│
+├── About
+│   ├── Introduction
+│   ├── Mission
+│   └── Features
+│
+├── Register
+│   ├── Student Registration Form
+│   └── Register Button
+│
+├── Login
+│   ├── Email Address
+│   ├── Password
+│   └── Login Button
+│
+├── Dashboard
+│   ├── Welcome Student
+│   ├── Menu
+│   │   ├── View Profile
+│   │   ├── Events
+│   │   ├── Notifications
+│   │   └── Logout
+│   └── Quick Actions
+│
+├── Event
+│   ├── Upcoming Event 1
+│   ├── Upcoming Event 2
+│   └── Upcoming Event 3
+│
+├── Profile
+│   ├── Student Information
+│   ├── Profile Photo
+│   ├── Personal Details
+│   └── Edit Profile
+│
+├── Contact
+│   ├── Name
+│   ├── Email
+│   ├── Message
+│   └── Submit
+│
+├── FAQ
+│   ├── Registration Queries
+│   ├── Login Issues
+│   ├── Event Information
+│   └── General Questions
+│
+└── Feedback
+    ├── Feedback Form
+    ├── Rating
+    ├── Comments
+    └── Submit
