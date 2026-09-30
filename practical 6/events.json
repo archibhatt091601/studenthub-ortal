@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "title": "Tech Fest",
+    "category": "Technical",
+    "date": "2026-10-10",
+    "location": "Main Auditorium"
+  },
+  {
+    "id": 2,
+    "title": "Coding Contest",
+    "category": "Technical",
+    "date": "2026-10-15",
+    "location": "Computer Lab"
+  },
+  {
+    "id": 3,
+    "title": "Sports Day",
+    "category": "Sports",
+    "date": "2026-10-20",
+    "location": "College Ground"
+  },
+  {
+    "id": 4,
+    "title": "Cultural Night",
+    "category": "Cultural",
+    "date": "2026-10-25",
+    "location": "Open Air Theatre"
+  },
+  {
+    "id": 5,
+    "title": "Workshop on AI",
+    "category": "Workshop",
+    "date": "2026-11-02",
+    "location": "Seminar Hall"
+  },
+  {
+    "id": 6,
+    "title": "Web Development Seminar",
+    "category": "Seminar",
+    "date": "2026-11-08",
+    "location": "Room 101"
+  },
+  {
+    "id": 7,
+    "title": "Hackathon",
+    "category": "Technical",
+    "date": "2026-11-12",
+    "location": "Innovation Lab"
+  },
+  {
+    "id": 8,
+    "title": "Photography Club Meet",
+    "category": "Club",
+    "date": "2026-11-15",
+    "location": "Activity Room"
+  },
+  {
+    "id": 9,
+    "title": "Robotics Workshop",
+    "category": "Workshop",
+    "date": "2026-11-20",
+    "location": "Robotics Lab"
+  },
+  {
+    "id": 10,
+    "title": "Music Competition",
+    "category": "Cultural",
+    "date": "2026-11-25",
+    "location": "Auditorium"
+  },
+  {
+    "id": 11,
+    "title": "Entrepreneurship Talk",
+    "category": "Seminar",
+    "date": "2026-12-01",
+    "location": "Seminar Hall"
+  },
+  {
+    "id": 12,
+    "title": "Football Tournament",
+    "category": "Sports",
+    "date": "2026-12-05",
+    "location": "College Ground"
+  },
+  {
+    "id": 13,
+    "title": "JavaScript Workshop",
+    "category": "Workshop",
+    "date": "2026-12-10",
+    "location": "Computer Lab"
+  },
+  {
+    "id": 14,
+    "title": "Quiz Competition",
+    "category": "Competition",
+    "date": "2026-12-15",
+    "location": "Room 201"
+  },
+  {
+    "id": 15,
+    "title": "Farewell Event",
+    "category": "Cultural",
+    "date": "2026-12-20",
+    "location": "Main Auditorium"
+  }
+]

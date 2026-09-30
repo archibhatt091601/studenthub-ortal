@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 6 - Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>StudentHub Events</h1>
+
+    <div class="controls">
+        <input type="text" id="search" placeholder="Search event...">
+        <select id="category">
+            <option value="all">All Categories</option>
+        </select>
+        <select id="sort">
+            <option value="default">Sort by</option>
+            <option value="title">Title</option>
+            <option value="date">Date</option>
+        </select>
+    </div>
+
+    <p id="message">Loading events...</p>
+    <div id="events"></div>
+
+    <div class="pagination">
+        <button id="prev">Previous</button>
+        <span id="page">Page 1</span>
+        <button id="next">Next</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
