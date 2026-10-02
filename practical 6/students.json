@@ -1,0 +1,17 @@
+[
+  {"id":1,"name":"Aarav Patel","enrollment":"26DCE001","course":"Computer Engineering","semester":3,"email":"aarav.patel@example.edu"},
+  {"id":2,"name":"Aditi Shah","enrollment":"26DCE002","course":"Computer Engineering","semester":3,"email":"aditi.shah@example.edu"},
+  {"id":3,"name":"Arjun Mehta","enrollment":"26DCS003","course":"Computer Science","semester":5,"email":"arjun.mehta@example.edu"},
+  {"id":4,"name":"Diya Desai","enrollment":"26DCS004","course":"Computer Science","semester":5,"email":"diya.desai@example.edu"},
+  {"id":5,"name":"Ishaan Joshi","enrollment":"26DIT005","course":"Information Technology","semester":3,"email":"ishaan.joshi@example.edu"},
+  {"id":6,"name":"Jiya Trivedi","enrollment":"26DIT006","course":"Information Technology","semester":3,"email":"jiya.trivedi@example.edu"},
+  {"id":7,"name":"Kabir Rao","enrollment":"26DEC007","course":"Electronics Engineering","semester":5,"email":"kabir.rao@example.edu"},
+  {"id":8,"name":"Kiara Shah","enrollment":"26DEC008","course":"Electronics Engineering","semester":5,"email":"kiara.shah@example.edu"},
+  {"id":9,"name":"Manav Patel","enrollment":"26DME009","course":"Mechanical Engineering","semester":3,"email":"manav.patel@example.edu"},
+  {"id":10,"name":"Meera Joshi","enrollment":"26DME010","course":"Mechanical Engineering","semester":3,"email":"meera.joshi@example.edu"},
+  {"id":11,"name":"Neil Desai","enrollment":"26DCE011","course":"Computer Engineering","semester":5,"email":"neil.desai@example.edu"},
+  {"id":12,"name":"Pari Mehta","enrollment":"26DCS012","course":"Computer Science","semester":3,"email":"pari.mehta@example.edu"},
+  {"id":13,"name":"Reyansh Rao","enrollment":"26DIT013","course":"Information Technology","semester":5,"email":"reyansh.rao@example.edu"},
+  {"id":14,"name":"Sana Trivedi","enrollment":"26DEC014","course":"Electronics Engineering","semester":3,"email":"sana.trivedi@example.edu"},
+  {"id":15,"name":"Vivaan Patel","enrollment":"26DME015","course":"Mechanical Engineering","semester":5,"email":"vivaan.patel@example.edu"}
+]

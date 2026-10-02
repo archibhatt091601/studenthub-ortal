@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>StudentHub | Student Directory</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1><span class="title-badge">StudentHub Portal</span></h1>
+
+<nav class="ttt">
+
+
+
+<a href="home.html" class="m">Home</a>
+
+<a href="about.html" class="m1">About</a>
+
+<a href="register.html" class="m2">Register</a>
+<a href="login.html" class="m9">Login</a>
+
+<a href="dashboard.html" class="m3">Dashboard</a>
+
+<a href="events.html" class="m4">Events</a>
+
+<a href="profile.html" class="m5">Profile</a>
+
+<a href="contact.html" class="m6">Contact</a>
+
+<a href="faq.html" class="m7">FAQ</a>
+
+<a href="feedback.html" class="m8">Feedback</a>
+
+
+
+</nav>
+</header>
+
+<main>
+
+<div class="page-box">
+
+<h2><span class="title-badge">Student Directory</span></h2>
+<p class="data-intro">Browse student profiles. Search by name, enrollment, course, or email, then filter by course.</p>
+<div class="data-controls" data-controls>
+  <label>Search students<input type="search" data-search placeholder="Search the student directory"></label>
+  <label>Course<select data-filter><option value="">All courses</option></select></label>
+  <label>Sort by<select data-sort><option value="name-asc">Name (A–Z)</option><option value="name-desc">Name (Z–A)</option><option value="semester-asc">Semester (low to high)</option><option value="semester-desc">Semester (high to low)</option></select></label>
+</div>
+<p class="data-status" data-status role="status" aria-live="polite">Loading student profiles…</p>
+<div class="data-grid" data-results></div>
+<nav class="pagination" data-pagination aria-label="Student directory pages"></nav>
+
+</div>
+
+</main>
+
+<footer>
+
+<p>© 2026 StudentHub Portal</p>
+
+</footer>
+
+<script src="script.js"></script>
+<script type="module" src="data-browser.js"></script>
+</body>
+</html>
