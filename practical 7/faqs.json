@@ -1,0 +1,17 @@
+[
+  {"id":1,"category":"Registration","question":"How do I register for StudentHub?","answer":"Open the Register page, complete the form, and submit your details."},
+  {"id":2,"category":"Registration","question":"Which details are needed for registration?","answer":"Provide your name, email, mobile number, course, year, and password."},
+  {"id":3,"category":"Account","question":"How do I log in to my account?","answer":"Use the Login page with the email address and password you registered."},
+  {"id":4,"category":"Account","question":"What should I do if I forget my password?","answer":"Contact the StudentHub administrator to request help recovering access."},
+  {"id":5,"category":"Profile","question":"Can I update my student profile?","answer":"Yes. Sign in and update your profile details from the profile section."},
+  {"id":6,"category":"Events","question":"Where can I find upcoming campus events?","answer":"Open the Events page to browse and filter the current event list."},
+  {"id":7,"category":"Events","question":"How do I search for a specific event?","answer":"Enter a title, venue, or keyword in the event search box."},
+  {"id":8,"category":"Events","question":"Are event dates displayed in local time?","answer":"Dates are shown as campus calendar dates in the event listing."},
+  {"id":9,"category":"Academics","question":"How do I find information about my course?","answer":"Course information is available from your student profile or the academic office."},
+  {"id":10,"category":"Notices","question":"Where are important college notices published?","answer":"Check the portal dashboard and the official college notice board regularly."},
+  {"id":11,"category":"Feedback","question":"How can I submit feedback?","answer":"Open the Feedback page, fill in the form, and submit your comments."},
+  {"id":12,"category":"Contact","question":"How can I contact the administration?","answer":"Use the Contact page for the administration office contact information."},
+  {"id":13,"category":"Technical Support","question":"The page is not loading data. What can I try?","answer":"Run the project using a local web server and reload the page; fetch does not work reliably from file URLs."},
+  {"id":14,"category":"Privacy","question":"Who can see my student details?","answer":"This demonstration directory uses sample records and is not connected to a student database."},
+  {"id":15,"category":"Account","question":"How do I sign out?","answer":"Use the sign-out option in the dashboard when it is available in your account."}
+]
