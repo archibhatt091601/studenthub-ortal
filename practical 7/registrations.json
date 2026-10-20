@@ -1,0 +1,22 @@
+[
+  {
+    "fullName": "Vatsal Makwana",
+    "email": "vatsal@gmail.com",
+    "mobile": "9825011111",
+    "course": "Computer Engineering",
+    "year": "Second Year",
+    "gender": "Male",
+    "message": "Excited for StudentHub",
+    "submittedAt": "2026-10-20 10:00:00"
+  },
+  {
+    "fullName": "Rahul Sharma",
+    "email": "rahul@gmail.com",
+    "mobile": "9825022222",
+    "course": "Information Technology",
+    "year": "Third Year",
+    "gender": "Male",
+    "message": "Looking forward to events",
+    "submittedAt": "2026-10-20 11:30:00"
+  }
+]
