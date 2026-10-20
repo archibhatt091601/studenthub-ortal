@@ -1,0 +1,663 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>StudentHub | Register</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .error {
+            color: red;
+            font-size: 13px;
+            margin-top: 3px;
+            display: block;
+        }
+
+        #passwordStrength {
+            font-size: 13px;
+            margin-top: 3px;
+            display: block;
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+<header>
+
+    <h1>
+        <span class="title-badge">StudentHub Portal</span>
+    </h1>
+
+    <nav class="ttt">
+<a href="home.html" class="m">Home</a>
+<a href="about.html" class="m1">About</a>
+<a href="admin_dashboard.php" class="m3">Admin Dashboard</a>
+<a href="login.php" class="m9">Login</a>
+<a href="logout.php" class="m2">Logout</a>
+<a href="dashboard.html" class="m4">Dashboard</a>
+<a href="events.html" class="m5">Events</a>
+<a href="profile.html" class="m6">Profile</a>
+<a href="contact.html" class="m7">Contact</a>
+<a href="faq.html" class="m8">FAQ</a>
+</nav>
+
+</header>
+
+
+<main>
+
+    <div class="page-box">
+
+        <h2>
+            <span class="title-badge">Student Registration</span>
+        </h2>
+
+        <br>
+
+
+        
+
+        <form id="registrationForm">
+
+
+            
+
+            <label for="name">Full Name</label>
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your full name"
+            >
+
+            <span id="nameError" class="error"></span>
+
+
+            
+
+            <label for="email">Email Address</label>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+            >
+
+            <span id="emailError" class="error"></span>
+
+
+            
+
+            <label for="mobile">Mobile Number</label>
+
+            <input
+                type="tel"
+                id="mobile"
+                placeholder="Enter 10-digit mobile number"
+                maxlength="10"
+            >
+
+            <span id="mobileError" class="error"></span>
+
+
+            
+
+            <label for="course">Course</label>
+
+            <select id="course">
+
+                <option value="">
+                    Select Course
+                </option>
+
+                <option value="Computer Engineering">
+                    B.Tech Computer Engineering
+                </option>
+
+                <option value="Information Technology">
+                    B.Tech Information Technology
+                </option>
+
+                <option value="Civil Engineering">
+                    B.Tech Civil Engineering
+                </option>
+
+                <option value="Mechanical Engineering">
+                    B.Tech Mechanical Engineering
+                </option>
+
+            </select>
+
+            <span id="courseError" class="error"></span>
+
+
+            
+
+            <label for="year">Year</label>
+
+            <select id="year">
+
+                <option value="">
+                    Select Year
+                </option>
+
+                <option value="First Year">
+                    First Year
+                </option>
+
+                <option value="Second Year">
+                    Second Year
+                </option>
+
+                <option value="Third Year">
+                    Third Year
+                </option>
+
+                <option value="Fourth Year">
+                    Fourth Year
+                </option>
+
+            </select>
+
+            <span id="yearError" class="error"></span>
+
+
+            
+
+            <label>Gender</label>
+
+            <div>
+
+                <input
+                    type="radio"
+                    id="male"
+                    name="gender"
+                    value="Male"
+                >
+
+                <label for="male">Male</label>
+
+
+                <input
+                    type="radio"
+                    id="female"
+                    name="gender"
+                    value="Female"
+                >
+
+                <label for="female">Female</label>
+
+
+                <input
+                    type="radio"
+                    id="other"
+                    name="gender"
+                    value="Other"
+                >
+
+                <label for="other">Other</label>
+
+            </div>
+
+            <span id="genderError" class="error"></span>
+
+
+            
+
+            <label for="password">Password</label>
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Create Password"
+            >
+
+            <span id="passwordStrength"></span>
+
+            <span id="passwordError" class="error"></span>
+
+
+            
+
+            <label for="confirm">Confirm Password</label>
+
+            <input
+                type="password"
+                id="confirm"
+                placeholder="Confirm Password"
+            >
+
+            <span id="confirmPasswordError" class="error"></span>
+
+
+            
+
+            <div>
+
+                <input
+                    type="checkbox"
+                    id="terms"
+                >
+
+                <label for="terms">
+                    I agree to the Terms & Conditions
+                </label>
+
+            </div>
+
+            <span id="termsError" class="error"></span>
+
+
+            
+
+            <button type="submit">
+                Register
+            </button>
+
+
+        </form>
+
+    </div>
+
+</main>
+
+
+<footer>
+
+    <p>
+        Â© 2026 StudentHub Portal | Web Development Frameworks
+    </p>
+
+</footer>
+
+
+
+
+
+<script>
+
+const form = document.getElementById("registrationForm");
+
+
+
+
+form.addEventListener("submit", function(event) {
+
+    event.preventDefault();
+
+    let valid = true;
+
+
+    
+
+    const name =
+        document.getElementById("name").value.trim();
+
+    const email =
+        document.getElementById("email").value.trim();
+
+    const mobile =
+        document.getElementById("mobile").value.trim();
+
+    const course =
+        document.getElementById("course").value;
+
+    const year =
+        document.getElementById("year").value;
+
+    const password =
+        document.getElementById("password").value;
+
+    const confirm =
+        document.getElementById("confirm").value;
+
+    const gender =
+        document.querySelector(
+            'input[name="gender"]:checked'
+        );
+
+    const terms =
+        document.getElementById("terms").checked;
+
+
+    
+
+    const nameError =
+        document.getElementById("nameError");
+
+    const emailError =
+        document.getElementById("emailError");
+
+    const mobileError =
+        document.getElementById("mobileError");
+
+    const courseError =
+        document.getElementById("courseError");
+
+    const yearError =
+        document.getElementById("yearError");
+
+    const genderError =
+        document.getElementById("genderError");
+
+    const passwordError =
+        document.getElementById("passwordError");
+
+    const confirmPasswordError =
+        document.getElementById("confirmPasswordError");
+
+    const termsError =
+        document.getElementById("termsError");
+
+
+    
+
+    nameError.innerHTML = "";
+    emailError.innerHTML = "";
+    mobileError.innerHTML = "";
+    courseError.innerHTML = "";
+    yearError.innerHTML = "";
+    genderError.innerHTML = "";
+    passwordError.innerHTML = "";
+    confirmPasswordError.innerHTML = "";
+    termsError.innerHTML = "";
+
+
+    
+
+    const namePattern =
+        /^[A-Za-z ]{2,50}$/;
+
+    const emailPattern =
+        /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    const mobilePattern =
+        /^[6-9][0-9]{9}$/;
+
+
+    
+
+    if (name === "") {
+
+        nameError.innerHTML =
+            "Please enter your name.";
+
+        valid = false;
+
+    }
+    else if (!namePattern.test(name)) {
+
+        nameError.innerHTML =
+            "Name should contain only letters.";
+
+        valid = false;
+    }
+
+
+    
+
+    if (email === "") {
+
+        emailError.innerHTML =
+            "Please enter your email.";
+
+        valid = false;
+
+    }
+    else if (!emailPattern.test(email)) {
+
+        emailError.innerHTML =
+            "Please enter a valid email.";
+
+        valid = false;
+    }
+
+
+    
+
+    if (mobile === "") {
+
+        mobileError.innerHTML =
+            "Please enter your mobile number.";
+
+        valid = false;
+
+    }
+    else if (!/^[0-9]+$/.test(mobile)) {
+
+        mobileError.innerHTML =
+            "Mobile number must contain only numbers.";
+
+        valid = false;
+
+    }
+    else if (mobile.length !== 10) {
+
+        mobileError.innerHTML =
+            "Mobile number must contain exactly 10 digits.";
+
+        valid = false;
+
+    }
+    else if (!mobilePattern.test(mobile)) {
+
+        mobileError.innerHTML =
+            "Mobile number must start with 6, 7, 8 or 9.";
+
+        valid = false;
+    }
+
+
+    
+
+    if (course === "") {
+
+        courseError.innerHTML =
+            "Please select a course.";
+
+        valid = false;
+    }
+
+
+    
+
+    if (year === "") {
+
+        yearError.innerHTML =
+            "Please select your year.";
+
+        valid = false;
+    }
+
+
+    
+
+    if (!gender) {
+
+        genderError.innerHTML =
+            "Please select your gender.";
+
+        valid = false;
+    }
+
+
+    
+
+    if (password === "") {
+
+        passwordError.innerHTML =
+            "Please enter a password.";
+
+        valid = false;
+
+    }
+    else if (password.length < 8) {
+
+        passwordError.innerHTML =
+            "Password must contain at least 8 characters.";
+
+        valid = false;
+
+    }
+    else if (!/[A-Z]/.test(password)) {
+
+        passwordError.innerHTML =
+            "Password must contain an uppercase letter.";
+
+        valid = false;
+
+    }
+    else if (!/[a-z]/.test(password)) {
+
+        passwordError.innerHTML =
+            "Password must contain a lowercase letter.";
+
+        valid = false;
+
+    }
+    else if (!/[0-9]/.test(password)) {
+
+        passwordError.innerHTML =
+            "Password must contain a number.";
+
+        valid = false;
+
+    }
+    else if (!/[!@#$%^&*]/.test(password)) {
+
+        passwordError.innerHTML =
+            "Password must contain a special character.";
+
+        valid = false;
+    }
+
+
+    
+
+    if (confirm === "") {
+
+        confirmPasswordError.innerHTML =
+            "Please confirm your password.";
+
+        valid = false;
+
+    }
+    else if (password !== confirm) {
+
+        confirmPasswordError.innerHTML =
+            "Passwords do not match.";
+
+        valid = false;
+    }
+
+
+    
+
+    if (!terms) {
+
+        termsError.innerHTML =
+            "Please accept the Terms & Conditions.";
+
+        valid = false;
+    }
+
+
+    
+
+    if (valid) {
+
+        alert("Registration successful!");
+
+        form.reset();
+
+        document.getElementById(
+            "passwordStrength"
+        ).innerHTML = "";
+    }
+
+});
+
+
+
+
+
+
+
+const passwordInput =
+    document.getElementById("password");
+
+const passwordStrength =
+    document.getElementById("passwordStrength");
+
+
+passwordInput.addEventListener(
+    "input",
+    function() {
+
+        const password =
+            passwordInput.value;
+
+        if (password === "") {
+
+            passwordStrength.innerHTML = "";
+
+            return;
+        }
+
+
+        let score = 0;
+
+
+        if (password.length >= 8)
+            score++;
+
+        if (/[A-Z]/.test(password))
+            score++;
+
+        if (/[a-z]/.test(password))
+            score++;
+
+        if (/[0-9]/.test(password))
+            score++;
+
+        if (/[!@#$%^&*]/.test(password))
+            score++;
+
+
+        if (score <= 2) {
+
+            passwordStrength.innerHTML =
+                "Weak password";
+
+        }
+        else if (score <= 4) {
+
+            passwordStrength.innerHTML =
+                "Medium password";
+
+        }
+        else {
+
+            passwordStrength.innerHTML =
+                "Strong password";
+        }
+
+    }
+);
+
+</script>
+
+
+</body>
+
+</html>
