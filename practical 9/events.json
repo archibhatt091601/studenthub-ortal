@@ -1,0 +1,17 @@
+[
+  {"id":1,"title":"Web Development Workshop","date":"2026-11-10","category":"Workshop","venue":"Seminar Hall","description":"Build responsive web pages with HTML, CSS, and JavaScript."},
+  {"id":2,"title":"Campus Innovation Hackathon","date":"2026-11-18","category":"Competition","venue":"Computer Lab 1","description":"Team up to prototype a solution for a campus challenge."},
+  {"id":3,"title":"Annual Sports Day","date":"2026-11-25","category":"Sports","venue":"College Ground","description":"Join inter-department track, field, and team sports."},
+  {"id":4,"title":"Robotics Demonstration","date":"2026-12-03","category":"Technology","venue":"Innovation Lab","description":"See student-built robots and live demonstrations."},
+  {"id":5,"title":"Career Planning Seminar","date":"2026-12-09","category":"Seminar","venue":"Auditorium","description":"Explore internships, resumes, and career pathways."},
+  {"id":6,"title":"Photography Walk","date":"2026-12-14","category":"Arts","venue":"Main Gate","description":"Practice composition on a guided campus photo walk."},
+  {"id":7,"title":"Cyber Safety Workshop","date":"2026-12-20","category":"Workshop","venue":"Seminar Hall","description":"Learn practical ways to protect accounts and devices."},
+  {"id":8,"title":"Intercollege Debate","date":"2026-12-26","category":"Competition","venue":"Lecture Theatre 2","description":"Represent your department in the annual debate."},
+  {"id":9,"title":"Founders Day Celebration","date":"2027-01-02","category":"Culture","venue":"Open Air Theatre","description":"Celebrate the college community with performances."},
+  {"id":10,"title":"AI and Data Science Talk","date":"2027-01-08","category":"Seminar","venue":"Auditorium","description":"Faculty and alumni discuss current AI applications."},
+  {"id":11,"title":"Blood Donation Camp","date":"2027-01-15","category":"Community","venue":"Health Centre","description":"Donate blood with the visiting medical team."},
+  {"id":12,"title":"Open Source Contribution Day","date":"2027-01-21","category":"Technology","venue":"Computer Lab 2","description":"Make your first contribution to a community project."},
+  {"id":13,"title":"Garba Evening","date":"2027-01-27","category":"Culture","venue":"College Ground","description":"Celebrate Navratri with music and traditional dance."},
+  {"id":14,"title":"Project Showcase","date":"2027-02-04","category":"Exhibition","venue":"Exhibition Hall","description":"Discover final-year projects and student prototypes."},
+  {"id":15,"title":"Alumni Networking Meet","date":"2027-02-12","category":"Community","venue":"Seminar Hall","description":"Connect with graduates working across industries."}
+]
